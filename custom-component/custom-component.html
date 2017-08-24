@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>自定义组件</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://unpkg.com/vue"></script>
+    <script src="js/component.js"></script>
+</head>
+
+<body>
+<div id="app">
+    <h2>自定义组件</h2>
+    <div style="float: left;">
+        <custom-select btn-value="搜索" :list="cities"></custom-select>
+    </div>
+
+    <div style="float: left;">
+        <custom-select btn-value="Query" :list="date"></custom-select>
+    </div>
+</div>
+<script>
+
+    new Vue({
+        el: "#app",
+        data: {
+            cities: ['北京', '上海', '广州', '深圳'],
+            date: ['2017-05-29', '2017-06-23', '2017-08-18']
+        }
+    })
+</script>
+</body>
+</html>
