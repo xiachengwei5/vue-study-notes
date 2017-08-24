@@ -1,9 +1,3 @@
----
-title: Vue学习笔记
-data: 2017-08-23 15:33:00
-tags: [vue, todoList, component]
----
-
 ### 2017-08-23 
 
 用`Vue.js` 编写的一个功能完善的`todoList` 小工具，将`Vue` 的一大核心功能——响应的数据绑定用得淋漓尽致，覆盖了很多Vue的基础知识点，适合作为入门的实战练习。
@@ -57,11 +51,9 @@ $emit              //子组件调用父组件的自定义函数
 
 #### 二、实现后的效果
 
-![自定义组件](http://olywxnzqu.bkt.clouddn.com/customComponent.gif) 
+![演示效果](http://olywxnzqu.bkt.clouddn.com/customComponent.gif)  
 
 ### 学习资料
-
-[获取源码](https://github.com/xiachengwei5/vue-todoList) 
 
 [视频资料](http://pan.baidu.com/s/1hr6uwfy) 密码：7ys1
 
